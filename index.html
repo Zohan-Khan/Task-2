@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Styles</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .bold {
+            font-weight: bold;
+            background-color: #ffccff;
+        }
+        .large-text {
+            font-size: 20px;
+        }
+        .list-div {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Styles</h1>
+    <p>The CSS properties for tables and cells is increased over that in html2fpdf. It includes recognition of THEAD, TH and allows property of background-color to be set for TR. See below for other facilities such as autosizing, and rotation.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Row 1</th>
+                <th>This is data</th>
+                <th>This is data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 2</td>
+                <td>
+                    <p>This is data p</p>
+                    <p>This is data out of p</p>
+                    <p class="bold">This is bold data p</p>
+                    <p>This is bold data out of p</p>
+                    <p>This is normal data after br</p>
+                    <div class="list-div">Lists in a Table</div>
+                    <div>This is data div</div>
+                    <div>This is data out of div</div>
+                    <div>This is data div</div>
+                    <div>This is data out of div</div>
+                </td>
+                <td class="large-text">This is large text</td>
+            </tr>
+            <tr>
+                <td>Row 3</td>
+                <td>This is long data</td>
+                <td>This is data</td>
+            </tr>
+            <tr>
+                <td>Row 4 <code>&lt;td&gt; cell</code></td>
+                <td>This is data</td>
+                <td>This is data</td>
+            </tr>
+            <tr>
+                <td>Row 5</td>
+                <td>Also data</td>
+                <td>Also data</td>
+            </tr>
+            <tr>
+                <td>Row 6</td>
+                <td>Also data</td>
+                <td>Also data</td>
+            </tr>
+            <tr>
+                <td>Row 7</td>
+                <td>Also data</td>
+                <td>Also data</td>
+            </tr>
+            <tr>
+                <td>Row 8</td>
+                <td>Also data</td>
+                <td>Also data</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
